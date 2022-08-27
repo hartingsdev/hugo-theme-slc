@@ -4,7 +4,7 @@
 # Most of the template is copied from https://github.com/victoriadrake/hugo-theme-sam/
 
 name = "Slc"
-license = "GNU Lesser General Public License v2.1"
+license = "MIT"
 licenselink = "https://github.com/hartingsdev/hugo-theme-slc/blob/main/LICENSE"
 description = "Simple template for link collections and pages"
 homepage = "https://github.com/hartingsdev/hugo-theme-slc"
