@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    {{ partial "head.html" . }}
+</head>
+
+<body class="linktree">
+    <nav role="navigation" class="linktree">
+
+        {{ if .Site.Params.mainMenu }}
+        {{ range .Site.Params.mainMenu }}
+            <a href="{{.link}}">
+                {{.text}}
+            </a>
+        {{ end }}
+
+        {{ else }}
+        {{ range .Site.Sections }}
+            <a href="{{.RelPermalink}}">
+                {{.Title | markdownify}}
+            </a>
+        {{ end }}
+        {{ end }}
+
+    </nav>
+</body>
+
+</html>

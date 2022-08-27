@@ -1,0 +1,77 @@
+/* Design inspired by & copied from: https://github.com/victoriadrake/hugo-theme-sam/  */
+
+body {
+    background-color: #293038;
+	height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #fff;
+}
+
+body.linktree {
+    justify-content: center;
+}
+
+nav.linktree {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+nav.linktree > a {
+    font-size: 3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    line-height: 1.5em;
+}
+
+a {
+    color: #ccc;
+    border-bottom: 2px solid #ccc;
+    text-decoration: none;
+
+
+
+    transition: .5s ease;
+}
+
+a:hover {
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+h1, h2, h3 {
+    margin-bottom: 0.5em;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.wrap {
+    margin: 0 auto;
+    width: 45%;
+    max-width: 64em;
+}
+
+hr {
+    margin: 1rem 0;
+    background-color: transparent;
+    width: 50%;
+    border-style: solid;
+    border-width: 1px;
+    opacity: .3;
+}
+
+.bottom-menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

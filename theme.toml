@@ -1,0 +1,22 @@
+# theme.toml template for a Hugo theme
+# See https://github.com/gohugoio/hugoThemes#themetoml for an example
+
+# Most of the template is copied from https://github.com/victoriadrake/hugo-theme-sam/
+
+name = "Slc"
+license = "GNU Lesser General Public License v2.1"
+licenselink = "https://github.com/hartingsdev/hugo-theme-slc/blob/main/LICENSE"
+description = "Simple template for link collections and pages"
+homepage = "https://github.com/hartingsdev/hugo-theme-slc"
+tags = ["landingpage", "collection", "links"]
+features = []
+min_version = "0.92.0"
+
+[author]
+  name = "Robert Hartings"
+  homepage = "https://hartings.dev"
+
+[original]
+    author = "Victoria Drake"
+    homepage = "https://victoria.dev"
+    repo = "https://github.com/victoriadrake/hugo-theme-sam"
